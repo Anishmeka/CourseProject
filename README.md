@@ -1,6 +1,6 @@
 # README
 
-Project documentation pdf contains setup information
-link to proj docs
-link to software usage tutorial
-link to proj progress report
+Project documentation pdf contains setup information<br>
+link to proj docs<br>
+link to software usage tutorial<br>
+link to proj progress report<br>
