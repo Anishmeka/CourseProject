@@ -4,6 +4,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn import svm
 
+'''Takes in a review and trains a SVM model using TF-IDF to determine
+whether a review is positive or negative.
+'''
 def get_sentiment_svm(review: str):
     X = df['review_content'].tolist()
     X.append(review)
@@ -23,3 +26,4 @@ def get_sentiment_svm(review: str):
         return 1
     else:
         return 0
+    

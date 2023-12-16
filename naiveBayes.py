@@ -5,6 +5,10 @@ from sklearn.naive_bayes import MultinomialNB
 import numpy as np
 from DataProcessing import df
 
+
+'''Takes in a review and trains a naive bayes classfier to determine
+whether a review is positive or negative.
+'''
 def get_sentiment_naive_bayes(review: str):
     X = df['review_content'].tolist()
     X.append(review)
