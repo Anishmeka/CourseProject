@@ -1,48 +1,8 @@
 # README
-## Project Documentation
+# Project Documentation
 
-
-## Software Implementation
-
-### Vader and Hugging Face Jupyter Notebook
-
-#### Data Exploration and Analysis:
-Import necessary libraries such as pandas, numpy, matplotlib, seaborn, and nltk
-Load amazon review dataset into a pandas DataFrame and perform exploratory data analysis
-
-#### NLP with NLTK:
-NLTK (Natural Language Toolkit) is used for basic NLP tasks. The code tokenizes and performs part-of-speech   tagging on a sample review from the dataset.
-#### Sentiment Analysis with VADER:
-
-The VADER sentiment analysis tool from NLTK is employed to score the sentiment of each review in the dataset.
-Calculated overall sentiment score and created a new DataFrame that combines sentiment scores with metadata.
-
-#### Visualization and Hugging Face Integration:
-Visualizations of sentiment scores against user ratings using seaborn and matplotlib.
-An example sentiment analysis pipeline from Hugging Face's Transformers library
-
-### Naive Bayes and SVM Google Colab Notebook:
-
-#### Data Loading and Preprocessing:
-Extracts the review content and converting the ratings into binary labels (positive or negative).
-
-#### Naive Bayes Sentiment Analysis:
-Utilizes the CountVectorizer to convert the text data into a matrix of token counts.
-Trains a Multinomial Naive Bayes classifier on the transformed data.
-
-#### TF-IDF Vectorization and SVM Classification:
-Uses the TfidfVectorizer to create TF-IDF features from the review content.
-Splits the TF-IDF vectors into training and testing sets.
-Implements a Support Vector Machine (SVM) classifier with a linear kernel
-
-#### Result Display:
-Prints the accuracy of both the Naive Bayes and SVM classifiers on their respective test sets.
-Outputs key metrics such as precision, recall, and F1-score for positive and negative sentiments from the classification reports.
-
-### KAMSentimentAnalyzer - Main Driver File
-Utilizes the VADER and HuggingFace sentiment analyzers to determine whether or not a written review is positive, neutral or negative.
-Provides a user interface that asks for a review, and will output whether that review is positive, neutral or negative.
-
+## Software Usage Tutorial
+link to software usage tutorial<br>
 
 ## Overview/Function of the code
 Implemented in python with NLTK, pandas, numpy, matplotlib, sklearn, seaborn
@@ -85,6 +45,47 @@ Market Research: Review of competitors’ products to understand market trends
 
 Brand Monitoring: Monitor social media platforms and online forums for discussion about a brand, managing reputation
 
+## Software Implementation
+
+### Vader and Hugging Face Jupyter Notebook
+
+#### Data Exploration and Analysis:
+Import necessary libraries such as pandas, numpy, matplotlib, seaborn, and nltk
+Load amazon review dataset into a pandas DataFrame and perform exploratory data analysis
+
+#### NLP with NLTK:
+NLTK (Natural Language Toolkit) is used for basic NLP tasks. The code tokenizes and performs part-of-speech   tagging on a sample review from the dataset.
+#### Sentiment Analysis with VADER:
+
+The VADER sentiment analysis tool from NLTK is employed to score the sentiment of each review in the dataset.
+Calculated overall sentiment score and created a new DataFrame that combines sentiment scores with metadata.
+
+#### Visualization and Hugging Face Integration:
+Visualizations of sentiment scores against user ratings using seaborn and matplotlib.
+An example sentiment analysis pipeline from Hugging Face's Transformers library
+
+### Naive Bayes and SVM Google Colab Notebook:
+
+#### Data Loading and Preprocessing:
+Extracts the review content and converting the ratings into binary labels (positive or negative).
+
+#### Naive Bayes Sentiment Analysis:
+Utilizes the CountVectorizer to convert the text data into a matrix of token counts.
+Trains a Multinomial Naive Bayes classifier on the transformed data.
+
+#### TF-IDF Vectorization and SVM Classification:
+Uses the TfidfVectorizer to create TF-IDF features from the review content.
+Splits the TF-IDF vectors into training and testing sets.
+Implements a Support Vector Machine (SVM) classifier with a linear kernel
+
+#### Result Display:
+Prints the accuracy of both the Naive Bayes and SVM classifiers on their respective test sets.
+Outputs key metrics such as precision, recall, and F1-score for positive and negative sentiments from the classification reports.
+
+### KAMSentimentAnalyzer - Main Driver File
+Utilizes the VADER and HuggingFace sentiment analyzers to determine whether or not a written review is positive, neutral or negative.
+Provides a user interface that asks for a review, and will output whether that review is positive, neutral or negative.
+
 ## Installation and Setup/Software usage
 Download repo from github
 Install dependencies (recommended to use pip) 
@@ -114,11 +115,7 @@ Matt - Contributed to the development of VADER model with nltk and the Hugging F
 Kevin - Aggregated results of all model development into KAM analyzer. This includes adapting models to work with a single imputed sentence and evaluating which models to use in the sentiment analyzer.
 
 ## Project Docs
-Uploaded to github as pdf named "Project Documentation.pdf"
-link to proj docs<br>
-
-## Software Usage Tutorial
-link to software usage tutorial<br>
+Located in README.md. Also uploaded to github as pdf named "Project Documentation.pdf"
 
 ## Project Progress Report
 Uploaded to github as pdf named "project progress report.pdf"
