@@ -76,31 +76,37 @@ Conduct error analysis to understand common misclassifications and identify patt
 
 ## Use Cases
 Sentiment analysis of any product review to determine positive or negative content that can be integrated into any of the following:
+
 E-Commerce Platforms: Automatically categorize positive and negative feedback to help buyers make informed decisions based on aggregated opinions
+
 Customer Support: Identify common issues or recurring themes in negative reviews to improve service quality
+
 Market Research: Review of competitors’ products to understand market trends
+
 Brand Monitoring: Monitor social media platforms and online forums for discussion about a brand, managing reputation
 
 ## Installation and Setup/Software usage
 Download repo from github
 Install dependencies (recommended to use pip) 
 pip install scikit-learn, pip install seaborn, pip install matplotlib, pip install numpy, pip install nltk, pip install pandas
+
 ### To run NaiveBayesAndSVM.ipynb:
-Import file to Google Colab
-Add amazon.csv to ‘/content/gdrive/MyDrive/data’ in your Google Drive filepath
-Run each cell in order
-Enjoy!
+1. Import file to Google Colab
+2. Add amazon.csv to ‘/content/gdrive/MyDrive/data’ in your Google Drive filepath
+3. Run each cell in order
+4. Enjoy!
 
 ### To run VaderAndHuggingFace.ipynb:
-Import file to Jupyter Notebook
-Add amazon.csv to the data directory, which should be located in the same file path level of the ipynb file
-Run each cell in order
-Enjoy!
+1. Import file to Jupyter Notebook
+2. Add amazon.csv to the data directory, which should be located in the same file path level of the ipynb file
+3. Run each cell in order
+4. Enjoy!
 
 ### To run KAMSentimentAnalyzer.py:
-Make sure you have amazon.csv in a folder named data in the same directory as the py file
-Run the file directly using the following Unix command: python KAMSentimentAnalyzer.py
-When prompted, provide the review you would like analyzed. This could be from your own dataset using a similar format to the csv files provided in the repo or even a review from the Kaggle Amazon review dataset itself
+1. Make sure you have amazon.csv in a folder named data in the same directory as the py file
+2. Run the file directly using the following Unix command: python KAMSentimentAnalyzer.py
+3. When prompted, provide the review you would like analyzed. This could be from your own dataset using a similar
+4. format to the csv files provided in the repo or even a review from the Kaggle Amazon review dataset itself
 
 ## Team Member Contribution:
 Anish - Contributed to the development of Naive Bayes and SVM classifiers. This includes the preprocessing of the dataset and implementation of the classifiers themselves.
