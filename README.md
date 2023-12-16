@@ -1,8 +1,9 @@
 # README
-# Project Documentation
+# Software Usage Tutorial
+Link to Software Usage Tutorial Video: https://www.youtube.com/watch?v=VAt4jmNPzRM
+Link to Software Usage Tutorial Slides: https://docs.google.com/presentation/d/1BKE-H2HudywAu6TKlK7s2E7FKw5pQelOXTiP4qbO1mc/edit#slide=id.p
 
-## Software Usage Tutorial
-link to software usage tutorial<br>
+# Project Documentation
 
 ## Overview/Function of the code
 Implemented in python with NLTK, pandas, numpy, matplotlib, sklearn, seaborn
@@ -115,7 +116,7 @@ Sentiment analysis of any product review to determine positive or negative conte
 * Kevin - Aggregated results of all model development into KAM analyzer. This includes adapting models to work with a single imputed sentence and evaluating which models to use in the sentiment analyzer.
 
 ## Project Docs
-Located in README.md. Also uploaded to github as pdf named "Project Documentation.pdf"
+Located in README.md. Also uploaded to GitHub as pdf named "Project Documentation.pdf"
 
 ## Project Progress Report
-Uploaded to github as pdf named "project progress report.pdf"
+Uploaded to GitHub as pdf named "project progress report.pdf"
