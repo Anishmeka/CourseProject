@@ -6,11 +6,11 @@ link to software usage tutorial<br>
 
 ## Overview/Function of the code
 Implemented in python with NLTK, pandas, numpy, matplotlib, sklearn, seaborn
-### Four jupyter notebooks (two notebooks with combination of models):
-#### VADER model with NLTK 
-#### HuggingFace
-#### Naive Bayes Classifier
-#### SVM with TF-IDF vectorization
+### Four jupyter notebooks (two notebooks with combination of models- VADER/HuggingFace and Naive Bayes/SVM):
+- VADER model with NLTK 
+- HuggingFace
+-  Naive Bayes Classifier
+- SVM with TF-IDF vectorization
 
 ### The code can be used for an introduction to the diverse machine learning models/implementation guide, and the tool can be used to test product reviews for various use cases as described below
 #### VADER model with NLTK
