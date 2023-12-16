@@ -1,7 +1,7 @@
 # README
 # Software Usage Tutorial
-Link to Software Usage Tutorial Video: https://www.youtube.com/watch?v=VAt4jmNPzRM
-Link to Software Usage Tutorial Slides: https://docs.google.com/presentation/d/1BKE-H2HudywAu6TKlK7s2E7FKw5pQelOXTiP4qbO1mc/edit#slide=id.p
+* Link to Software Usage Tutorial Video: https://www.youtube.com/watch?v=VAt4jmNPzRM
+* Link to Software Usage Tutorial Slides: https://docs.google.com/presentation/d/1BKE-H2HudywAu6TKlK7s2E7FKw5pQelOXTiP4qbO1mc/edit#slide=id.p
 
 # Project Documentation
 
